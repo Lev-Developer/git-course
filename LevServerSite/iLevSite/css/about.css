@@ -1,0 +1,194 @@
+
+body{
+    background-color:#e0ebe8;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+header{
+  height: 150px;
+}
+a { 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+ } 
+
+.container {
+    width: 100%;
+    max-width: 1250px; 
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block; /*один из способов разместить элементы в строку*/
+  }
+
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  nav a {
+    text-decoration: none;
+    line-height: 119px;
+    font-size: 23px;
+  }
+
+.nav__link{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 30px;
+}
+
+.nebo{
+    height: 300px;
+    max-width: 100%;
+   
+}   
+ 
+.left_cloud{
+    position: relative;
+    right:200px;
+    top:100px;
+}
+.center_cloud{
+    position: relative;
+    top:20px;
+}
+.right_cloud{
+    position: relative;
+    left:200px;
+    top:150px;
+}
+
+.Works{
+    position: relative;
+      top: 110px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      font-size: 70px;
+      text-align: center;
+      color: #45b29a;
+      margin: 0px;
+      padding: 0px;
+  }
+
+.main{
+    text-align: center;
+}
+
+.left_flag{
+    position: relative;
+    right:250px;
+}
+.right_flag{
+    position: relative;
+    left:250px;
+}
+
+.hello{
+    height:500px;
+    max-width: auto;
+    background-color: #fff;
+}
+
+
+
+.my_works{
+    color:#45b29a;
+    font-size: 32px;
+}
+
+.this{
+    color:#45b29a;
+    font-size: 24px;
+}
+  
+footer{
+    width:100%;
+    height: 119px;
+  
+  }
+
+  
+/* <-------------------------1024----------------------------> */
+
+@media(max-width:1024px){
+  .container {
+    width: auto;
+    max-width: 1024px; 
+    padding: 0 15px;
+    margin: 0 auto;
+  } 
+}
+
+/* <-------------------------768----------------------------> */
+
+@media(max-width:768px){
+  .right_cloud{
+    display:none;
+  }
+}
+
+
+/* <-------------------------425----------------------------> */
+
+@media(max-width:425px){
+  .logo{
+    display: none;
+  }
+
+  
+
+  .nebo{
+    height: 500px;
+    max-width: 100%;
+   
+}   
+
+  .right_flag{
+    display: none;
+  }
+
+  .left_flag{
+    display: none;
+  }
+  .centre_cloud
+  {
+    display: none;
+  }
+
+  .left_cloud
+  {
+    display: none;
+  }
+}
+
+/* <-------------------------375----------------------------> */
+
+@media(max-width:376px){  
+  nav a{
+    font-size: 20px;
+ }
+
+ .nav__link {
+   margin: 0 10px;
+ }
+
+}
+

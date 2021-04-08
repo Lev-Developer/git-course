@@ -1,0 +1,166 @@
+body {
+    margin: 0px; /* Убираем отступы */
+    padding: 0px;
+    background-color: black;
+    
+   }
+select{
+ margin-left: 10px;
+}
+
+.header{
+    height: 130px;
+    background-color:rgb(224, 235, 232);
+   
+
+}
+
+.moveHeader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    animation: showElement;
+    animation-duration: 1s;
+}
+
+@keyframes show_header{
+    0%{
+        opacity:0;
+        top: -70px;
+
+    }
+    100%{
+        opacity:1;
+        top:0;
+    }
+}
+
+
+
+.content{
+background-color: rgb(224, 235, 232);
+height: 280px;
+margin-top: 0px;
+
+
+}
+
+.hello{
+    background-color: white;
+    height: 400px;
+
+   
+
+
+}
+.land_svg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:130px;
+
+}
+
+.lev{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:0px;
+
+}
+
+a{
+    position:absolute;
+ top:50px;
+ right: 250px;
+ width:200px;
+ font-family: "HelveticaNeue-Light" "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ font-size: 30px;
+}
+
+#about{
+    top:50px;
+ right: 150px;
+ width:200px;
+ color: #45b29a;
+ 
+}
+
+
+#contact{
+    top:50px;
+    right: 50px;
+    width:200px;
+    color: #45b29a;
+
+}
+
+
+
+.content_2{
+    background-color: rgb(224, 235, 232);
+    height: 430px;
+    margin-top: 0px;
+
+        
+    }
+    
+.transistion_cloud_left-cloud{
+    display: block;
+    margin-left: 70px;
+    margin-right: auto;
+    padding-top: 0px;
+    
+}
+.transistion_cloud_right-cloud{
+    display: block;
+    margin-left: 1100px;
+    margin-right: auto;
+    padding-top: 40px;
+}
+h3{
+    font-family: "HelveticaNeue-Light" "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #45b29a;
+
+}
+
+.designer{
+    text-align: center;
+    color: #45b29a;
+    font-size: 1.5em;
+    line-height: 1.42857143;
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+
+button{
+
+    background-image: url(Google-Translate.png);
+    
+}
+
+.footer{
+    height: 130px;
+    background-color:rgb(224, 235, 232);
+
+}
+
+.i_lev{
+    position: relative;
+    top: 200px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 70px;
+    text-align: center;
+    color: #45b29a;
+    margin: 0px; /* Убираем отступы */
+    padding: 0px;
+ 
+}
